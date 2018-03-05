@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage 
+    xmlns="http://xamarin.com/schemas/2014/forms" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+    x:Class="WelcomeCarousel.Views._01_04_OnboardingPage"
+    
+    xmlns:carousel="clr-namespace:Xamarin.Forms;assembly=Xamarin.Forms.CarouselView" 
+    xmlns:control="clr-namespace:WelcomeCarousel.Controls;assembly=WelcomeCarousel" 
+    
+    Style="{StaticResource StanderdPage}" 
+    BackgroundColor="{StaticResource ColorWhite}" 
+    NavigationPage.BarTextColor="{StaticResource ColorGray}">
+    <ContentPage.Content>
+        <StackLayout Spacing="0" VerticalOptions="FillAndExpand">
+            <AbsoluteLayout HeightRequest="400">
+                <carousel:CarouselView x:Name="CarouselMain" HeightRequest="400" ItemsSource="{Binding CarouselItemSource}" Position="{Binding Position, Mode=TwoWay}" AbsoluteLayout.LayoutFlags="All" AbsoluteLayout.LayoutBounds="0, 1, 1, 1" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
+                    <carousel:CarouselView.ItemTemplate>
+                        <DataTemplate>
+                            <StackLayout>
+                                <Image Source="{Binding ImageSource}" HeightRequest="400" Aspect="Fill" />
+                            </StackLayout>
+                        </DataTemplate>
+                    </carousel:CarouselView.ItemTemplate>
+                </carousel:CarouselView>
+                <Image Source="logo_gray.png" Aspect="AspectFit" WidthRequest="150" HorizontalOptions="CenterAndExpand" AbsoluteLayout.LayoutFlags="All" AbsoluteLayout.LayoutBounds="0, 1, 1, 1" />
+                <control:CarouselIndicators HorizontalOptions="CenterAndExpand" VerticalOptions="End" Padding="10" AbsoluteLayout.LayoutFlags="All" AbsoluteLayout.LayoutBounds="0, 1, 1, 1" IndicatorHeight="8" IndicatorWidth="8" UnselectedIndicator="unselected.png" SelectedIndicator="selected.png" Position="{Binding Source={x:Reference CarouselMain},  Path=Position}"
+                    ItemsSource="{Binding CarouselItemSource}" />
+            </AbsoluteLayout>
+            <Label Text="DISCOVER" Style="{StaticResource TitleLabel}" FontSize="30" VerticalOptions="StartAndExpand" Margin="10" />
+            <Label Text="The Little Coffee Shop serves specialty  coffee, fancy grilled cheese sandwiches,  scratch cooking, craft ales, and cider." Style="{StaticResource LabelIntro_Dark}" />
+            <Button Text="Get Started!" Command="{Binding GetStartedCommand}" Style="{StaticResource ButtonNormal_Light}" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

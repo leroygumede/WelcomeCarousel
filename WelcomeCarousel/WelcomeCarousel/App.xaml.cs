@@ -24,13 +24,17 @@ namespace WelcomeCarousel
         {
             InitializeComponent();
 
-            await NavigationService.NavigateAsync("NavigationPage/MainPage");
+            await NavigationService.NavigateAsync("_01_01_OnboardingPage");
         }
 
         protected override void RegisterTypes(IContainerRegistry containerRegistry)
         {
             containerRegistry.RegisterForNavigation<NavigationPage>();
             containerRegistry.RegisterForNavigation<MainPage>();
+            containerRegistry.RegisterForNavigation<_01_01_OnboardingPage>();
+            containerRegistry.RegisterForNavigation<_01_02_OnboardingPage>();
+            containerRegistry.RegisterForNavigation<_01_03_OnboardingPage>();
+            containerRegistry.RegisterForNavigation<_01_04_OnboardingPage>();
         }
     }
 }

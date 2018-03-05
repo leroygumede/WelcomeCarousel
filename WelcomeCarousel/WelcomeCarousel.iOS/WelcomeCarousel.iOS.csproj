@@ -130,6 +130,36 @@
     <BundleResource Include="Resources\Default.png" />
     <BundleResource Include="Resources\Default@2x.png" />
     <InterfaceDefinition Include="Resources\LaunchScreen.storyboard" />
+    <BundleResource Include="Resources\banner1.png" />
+    <BundleResource Include="Resources\banner1%402x.png" />
+    <BundleResource Include="Resources\banner1%403x.png" />
+    <BundleResource Include="Resources\banner2.png" />
+    <BundleResource Include="Resources\banner2%402x.png" />
+    <BundleResource Include="Resources\banner2%403x.png" />
+    <BundleResource Include="Resources\banner3.png" />
+    <BundleResource Include="Resources\banner3%402x.png" />
+    <BundleResource Include="Resources\banner3%403x.png" />
+    <BundleResource Include="Resources\loginbackground.png" />
+    <BundleResource Include="Resources\loginbackground%402x.png" />
+    <BundleResource Include="Resources\loginbackground%403x.png" />
+    <BundleResource Include="Resources\logo_gray.png" />
+    <BundleResource Include="Resources\logo_gray%402x.png" />
+    <BundleResource Include="Resources\logo_gray%403x.png" />
+    <BundleResource Include="Resources\logo.png" />
+    <BundleResource Include="Resources\logo%402x.png" />
+    <BundleResource Include="Resources\logo%403x.png" />
+    <BundleResource Include="Resources\selected_light.png" />
+    <BundleResource Include="Resources\selected_light%402x.png" />
+    <BundleResource Include="Resources\selected_light%403x.png" />
+    <BundleResource Include="Resources\selected.png" />
+    <BundleResource Include="Resources\selected%402x.png" />
+    <BundleResource Include="Resources\selected%403x.png" />
+    <BundleResource Include="Resources\unselected_light.png" />
+    <BundleResource Include="Resources\unselected_light%402x.png" />
+    <BundleResource Include="Resources\unselected_light%403x.png" />
+    <BundleResource Include="Resources\unselected.png" />
+    <BundleResource Include="Resources\unselected%402x.png" />
+    <BundleResource Include="Resources\unselected%403x.png" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -141,6 +171,9 @@
     <PackageReference Include="Prism.Unity.Forms" Version="7.0.0.396" />
     <PackageReference Include="Xamarin.Forms">
       <Version>2.5.0.280555</Version>
+    </PackageReference>
+    <PackageReference Include="Xamarin.Forms.CarouselView">
+      <Version>2.3.0-pre2</Version>
     </PackageReference>
   </ItemGroup>
   <ItemGroup>

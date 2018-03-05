@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage 
+    xmlns="http://xamarin.com/schemas/2014/forms" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="WelcomeCarousel.Views._01_01_OnboardingPage"
+    NavigationPage.BarTextColor="{StaticResource ColorWhite}" 
+    Style="{StaticResource StanderdPage}">
+    <ContentPage.Content>
+        <AbsoluteLayout VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand">
+            <Image Source="loginbackground.png" Aspect="Fill" AbsoluteLayout.LayoutFlags="All" AbsoluteLayout.LayoutBounds="0, 1, 1, 1" />
+            <StackLayout AbsoluteLayout.LayoutFlags="All" AbsoluteLayout.LayoutBounds="0, 1, 1, 1" VerticalOptions="Center">
+                <Image Source="logo.png" Aspect="AspectFit" HorizontalOptions="CenterAndExpand" VerticalOptions="Start" />
+                <Label Text="The Little Coffee Shop serves specialty  coffee, fancy grilled cheese sandwiches,  scratch cooking, craft ales, and cider." Style="{StaticResource LabelIntro_Light}" />
+            </StackLayout>
+            <Button Text="Get Started!" Command="{Binding GetStartedCommand}" Style="{StaticResource ButtonNormal_Light}"  />
+        </AbsoluteLayout>
+    </ContentPage.Content>
+</ContentPage>

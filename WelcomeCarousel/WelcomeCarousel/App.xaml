@@ -1,6 +1,84 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <prism:PrismApplication xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:prism="clr-namespace:Prism.Unity;assembly=Prism.Unity.Forms" x:Class="WelcomeCarousel.App">
-	<Application.Resources>
-		<!-- Application resource dictionary -->
-	</Application.Resources>
+ <Application.Resources>
+        <ResourceDictionary>
+            <!-- COLORS -->
+            <Color x:Key="ColorWhite">#ffffff</Color>
+            <Color x:Key="ColorGreen">#0d9f67</Color>
+            <Color x:Key="ColorGray">#c0c6d1</Color>
+            <Color x:Key="ColorGrayLight">#B7B7B7</Color>
+            <!-- BASE -->
+            <Style x:Key="ContentPageBase" TargetType="ContentPage">
+                <Setter Property="BackgroundColor" Value="{StaticResource ColorWhite}" />
+            </Style>
+            <Style x:Key="ButtonBase" TargetType="Button">
+                <Setter Property="FontSize" Value="18" />
+                <Setter Property="TextColor" Value="{StaticResource ColorWhite}" />
+                <Setter Property="BorderRadius" Value="3" />
+            </Style>
+            <Style x:Key="LabelBase" TargetType="Label">
+                <Setter Property="TextColor" Value="{StaticResource ColorWhite}" />
+                <Setter Property="FontSize" Value="18" />
+            </Style>
+            <!-- PAGE -->
+            <Style x:Key="StanderdPage" TargetType="ContentPage" BasedOn="{StaticResource ContentPageBase}">
+                <Setter Property="BackgroundColor" Value="{StaticResource ColorWhite}" />
+            </Style>
+            <!-- BUTTON -->
+            <Style x:Key="ButtonNormal_Light" TargetType="Button" BasedOn="{StaticResource ButtonBase}">
+                <Setter Property="TextColor" Value="{StaticResource ColorWhite}" />
+                <Setter Property="BackgroundColor" Value="{StaticResource ColorGreen}" />
+                <Setter Property="HorizontalOptions" Value="FillAndExpand" />
+                <Setter Property="BorderRadius" Value="0" />
+                <Setter Property="VerticalOptions" Value="End" />
+                <Setter Property="HeightRequest" Value="60" />
+                <Setter Property="AbsoluteLayout.LayoutFlags" Value="All" />
+                <Setter Property="AbsoluteLayout.LayoutBounds" Value="0, 1, 1, 1" />
+            </Style>
+            <Style x:Key="ButtonNormal_Dark" TargetType="Button" BasedOn="{StaticResource ButtonBase}">
+                <Setter Property="TextColor" Value="{StaticResource ColorWhite}" />
+                <Setter Property="BackgroundColor" Value="{StaticResource ColorGreen}" />
+                <Setter Property="VerticalOptions" Value="End" />
+                <Setter Property="BorderRadius" Value="5" />
+                <Setter Property="WidthRequest" Value="200" />
+                <Setter Property="HeightRequest" Value="60" />
+                <Setter Property="HorizontalOptions" Value="Center" />
+            </Style>
+            <Style x:Key="ButtonClear" TargetType="Button" BasedOn="{StaticResource ButtonBase}">
+                <Setter Property="BorderWidth" Value="2" />
+                <Setter Property="BackgroundColor" Value="Transparent" />
+                <Setter Property="BorderRadius" Value="5" />
+                <Setter Property="BorderColor" Value="{StaticResource ColorWhite}" />
+                <Setter Property="VerticalOptions" Value="End" />
+                <Setter Property="WidthRequest" Value="200" />
+                <Setter Property="HorizontalOptions" Value="Center" />
+            </Style>
+            <!-- LABEL -->
+            <Style x:Key="LabelIntro_Dark" TargetType="Label" BasedOn="{StaticResource LabelBase}">
+                <Setter Property="Margin" Value="28" />
+                <Setter Property="TextColor" Value="{StaticResource ColorGrayLight}" />
+                <Setter Property="HorizontalTextAlignment" Value="Center" />
+                <Setter Property="VerticalTextAlignment" Value="Center" />
+                <Setter Property="HorizontalOptions" Value="CenterAndExpand" />
+                <Setter Property="VerticalOptions" Value="End" />
+            </Style>
+            <Style x:Key="LabelIntro_Light" TargetType="Label" BasedOn="{StaticResource LabelBase}">
+                <Setter Property="Margin" Value="28" />
+                <Setter Property="TextColor" Value="{StaticResource ColorWhite}" />
+                <Setter Property="HorizontalTextAlignment" Value="Center" />
+                <Setter Property="VerticalTextAlignment" Value="Center" />
+                <Setter Property="HorizontalOptions" Value="CenterAndExpand" />
+                <Setter Property="VerticalOptions" Value="End" />
+            </Style>
+            <Style x:Key="TitleLabel" TargetType="Label" BasedOn="{StaticResource LabelBase}">
+                <Setter Property="Margin" Value="30" />
+                <Setter Property="FontSize" Value="50" />
+                <Setter Property="TextColor" Value="{StaticResource ColorGreen}" />
+                <Setter Property="HorizontalTextAlignment" Value="Center" />
+                <Setter Property="VerticalTextAlignment" Value="Center" />
+                <Setter Property="HorizontalOptions" Value="CenterAndExpand" />
+                <Setter Property="VerticalOptions" Value="End" />
+            </Style>
+        </ResourceDictionary>
+    </Application.Resources>
 </prism:PrismApplication>

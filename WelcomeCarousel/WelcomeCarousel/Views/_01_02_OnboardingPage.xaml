@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage 
+    xmlns="http://xamarin.com/schemas/2014/forms" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+    x:Class="WelcomeCarousel.Views._01_02_OnboardingPage"
+xmlns:carousel="clr-namespace:Xamarin.Forms;assembly=Xamarin.Forms.CarouselView" 
+xmlns:control="clr-namespace:WelcomeCarousel.Controls;assembly=WelcomeCarousel" 
+Style="{StaticResource StanderdPage}">
+    <ContentPage.Content>
+        <ScrollView>
+            <AbsoluteLayout VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand">
+                <Image Source="loginbackground.png" Aspect="Fill" AbsoluteLayout.LayoutFlags="All" AbsoluteLayout.LayoutBounds="0, 1, 1, 1" />
+                <StackLayout AbsoluteLayout.LayoutFlags="All" AbsoluteLayout.LayoutBounds="0, 1, 1, 1" VerticalOptions="FillAndExpand">
+                    <Image Source="logo.png" Aspect="AspectFit" HorizontalOptions="CenterAndExpand" VerticalOptions="EndAndExpand" Margin="0,10" />
+                    <carousel:CarouselView x:Name="CarouselMain" HeightRequest="200" ItemsSource="{Binding CarouselItemSource}" Position="{Binding Position, Mode=TwoWay}" HorizontalOptions="FillAndExpand" VerticalOptions="EndAndExpand">
+                        <carousel:CarouselView.ItemTemplate>
+                            <DataTemplate>
+                                <StackLayout>
+                                    <Label Text="{Binding Description}" HeightRequest="170" Style="{StaticResource LabelIntro_Light}" />
+                                </StackLayout>
+                            </DataTemplate>
+                        </carousel:CarouselView.ItemTemplate>
+                    </carousel:CarouselView>
+                    <StackLayout VerticalOptions="EndAndExpand">
+                        <Button Text="Get Started!" Command="{Binding GetStartedCommand}" Style="{StaticResource ButtonClear}" />
+                        <control:CarouselIndicators IndicatorHeight="8" IndicatorWidth="8" UnselectedIndicator="unselected.png" SelectedIndicator="selected.png" Position="{Binding Source={x:Reference CarouselMain},  Path=Position}" ItemsSource="{Binding CarouselItemSource}" Padding="10" />
+                    </StackLayout>
+                </StackLayout>
+            </AbsoluteLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

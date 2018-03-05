@@ -74,6 +74,9 @@
     <PackageReference Include="Xamarin.Android.Support.v7.MediaRouter">
       <Version>26.1.0.1</Version>
     </PackageReference>
+    <PackageReference Include="Xamarin.Forms.CarouselView">
+      <Version>2.3.0-pre2</Version>
+    </PackageReference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="MainActivity.cs" />
@@ -90,6 +93,56 @@
     <AndroidResource Include="Resources\mipmap-xhdpi\ic_launcher.png" />
     <AndroidResource Include="Resources\mipmap-xxhdpi\ic_launcher.png" />
     <AndroidResource Include="Resources\mipmap-xxxhdpi\ic_launcher.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\banner1.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\banner2.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\banner3.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\loginbackground.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\logo.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\logo_gray.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\selected.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\selected_light.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\unselected.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\unselected_light.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\banner1.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\banner2.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\banner3.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\loginbackground.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\logo.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\logo_gray.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\selected.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\selected_light.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\unselected.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\unselected_light.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\banner1.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\banner2.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\banner3.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\loginbackground.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\logo.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\logo_gray.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\selected.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\selected_light.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\unselected.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\unselected_light.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\banner1.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\banner2.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\banner3.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\loginbackground.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\logo.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\logo_gray.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\selected.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\selected_light.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\unselected.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\unselected_light.png" />
+    <AndroidResource Include="Resources\drawable-xxxhdpi\banner1.png" />
+    <AndroidResource Include="Resources\drawable-xxxhdpi\banner2.png" />
+    <AndroidResource Include="Resources\drawable-xxxhdpi\banner3.png" />
+    <AndroidResource Include="Resources\drawable-xxxhdpi\loginbackground.png" />
+    <AndroidResource Include="Resources\drawable-xxxhdpi\logo.png" />
+    <AndroidResource Include="Resources\drawable-xxxhdpi\logo_gray.png" />
+    <AndroidResource Include="Resources\drawable-xxxhdpi\selected.png" />
+    <AndroidResource Include="Resources\drawable-xxxhdpi\selected_light.png" />
+    <AndroidResource Include="Resources\drawable-xxxhdpi\unselected.png" />
+    <AndroidResource Include="Resources\drawable-xxxhdpi\unselected_light.png" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Properties\AndroidManifest.xml" />
