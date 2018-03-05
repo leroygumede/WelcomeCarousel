@@ -1,5 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="WelcomeCarousel.Views._01_03_OnboardingPage" xmlns:carousel="clr-namespace:Xamarin.Forms;assembly=Xamarin.Forms.CarouselView" xmlns:control="clr-namespace:WelcomeCarousel.Controls;assembly=WelcomeCarousel" Style="{StaticResource StanderdPage}" BackgroundColor="{StaticResource ColorWhite}" NavigationPage.BarTextColor="{StaticResource ColorGray}">
+<ContentPage 
+    xmlns="http://xamarin.com/schemas/2014/forms" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+    x:Class="WelcomeCarousel.Views._01_03_OnboardingPage" 
+    xmlns:carousel="clr-namespace:Xamarin.Forms;assembly=Xamarin.Forms.CarouselView" 
+    xmlns:control="clr-namespace:WelcomeCarousel.Controls;assembly=WelcomeCarousel" 
+    Style="{StaticResource StanderdPage}" 
+    BackgroundColor="{StaticResource ColorWhite}" 
+    NavigationPage.BarTextColor="{StaticResource ColorGray}">
     <ContentPage.Content>
         <ScrollView>
             <StackLayout Spacing="0" VerticalOptions="CenterAndExpand">
@@ -15,7 +23,7 @@
                     </carousel:CarouselView.ItemTemplate>
                 </carousel:CarouselView>
                 <StackLayout VerticalOptions="EndAndExpand">
-                    <Button Text="Get Started!"  Command="{Binding GetStartedCommand}" Style="{StaticResource ButtonNormal_Dark}" />
+                    <Button Text="Get Started!" Command="{Binding GetStartedCommand}" Style="{StaticResource ButtonNormal_Dark}" />
                     <control:CarouselIndicators IndicatorHeight="8" IndicatorWidth="8" UnselectedIndicator="unselected_light.png" SelectedIndicator="selected_light.png" Position="{Binding Source={x:Reference CarouselMain},  Path=Position}" ItemsSource="{Binding CarouselItemSource}" Margin="10" />
                 </StackLayout>
             </StackLayout>
