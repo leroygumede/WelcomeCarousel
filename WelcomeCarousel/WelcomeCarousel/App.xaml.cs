@@ -1,6 +1,5 @@
 ﻿using Prism;
 using Prism.Ioc;
-using WelcomeCarousel.ViewModels;
 using WelcomeCarousel.Views;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
