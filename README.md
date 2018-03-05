@@ -18,6 +18,7 @@ I'm also using a beta version of Xamarin.Forms.CarouselView.
 <img src="https://github.com/leroygumede/WelcomeCarousel/blob/master/screenshots/searching.png">
 
 #Screenshots 
+
 <img src="https://github.com/leroygumede/WelcomeCarousel/blob/master/screenshots/ios.gif?raw=true" width="200" />
 <img src="https://github.com/leroygumede/WelcomeCarousel/blob/master/screenshots/android.gif?raw=true" width="200" />
 
@@ -25,7 +26,13 @@ I'm also using a beta version of Xamarin.Forms.CarouselView.
 ### IOS
 
 <img src="https://github.com/leroygumede/WelcomeCarousel/blob/master/screenshots/1_ios.png" width="200" />
+<img src="https://github.com/leroygumede/WelcomeCarousel/blob/master/screenshots/2_ios.png" width="200" />
+<img src="https://github.com/leroygumede/WelcomeCarousel/blob/master/screenshots/3_ios.png" width="200" />
+<img src="https://github.com/leroygumede/WelcomeCarousel/blob/master/screenshots/4_ios.png" width="200" />
 
 ### Android
 
 <img src="https://github.com/leroygumede/WelcomeCarousel/blob/master/screenshots/1_android.png" width="200" />
+<img src="https://github.com/leroygumede/WelcomeCarousel/blob/master/screenshots/2_android.png" width="200" />
+<img src="https://github.com/leroygumede/WelcomeCarousel/blob/master/screenshots/3_android.png" width="200" />
+<img src="https://github.com/leroygumede/WelcomeCarousel/blob/master/screenshots/4_android.png" width="200" />
