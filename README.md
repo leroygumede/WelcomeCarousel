@@ -13,19 +13,19 @@ Template app with a few unused Welcome pages. I'm also using Carousel on a few p
 
 I'm also using a beta version of Xamarin.Forms.CarouselView.
 
-**Don't forget to enable pre-release packages when searching for the nuget
+**Don't forget to enable pre-release packages when searching for the nuget**
 
-<img src="https://github.com/leroygumede/WelcomeCarousel/blob/master/screenshots/searching.png" width="200">
+<img src="https://github.com/leroygumede/WelcomeCarousel/blob/master/screenshots/searching.png">
 
 #Screenshots 
-<img src="https://github.com/leroygumede/WelcomeCarousel/blob/master/screenshots/ios.gif" width="200" />
-<img src="https://github.com/leroygumede/WelcomeCarousel/blob/master/screenshots/android.gif" width="200" />
+<img src="https://github.com/leroygumede/WelcomeCarousel/blob/master/screenshots/ios.gif?raw=true" width="200" />
+<img src="https://github.com/leroygumede/WelcomeCarousel/blob/master/screenshots/android.gif?raw=true" width="200" />
 
 
-#Screenshots IOS
+### IOS
 
-<img src="https://github.com/leroygumede/WelcomeCarousel/blob/master/screenshots/1_ios.png" width="200">
+<img src="https://github.com/leroygumede/WelcomeCarousel/blob/master/screenshots/1_ios.png" width="200" />
 
-#Screenshots AndroidExpenseWalkThroughPageTimesheetSlide.png
+### Android
 
-<img src="https://github.com/leroygumede/WelcomeCarousel/blob/master/screenshots/1_android.png" width="200">
+<img src="https://github.com/leroygumede/WelcomeCarousel/blob/master/screenshots/1_android.png" width="200" />
