@@ -24,4 +24,4 @@ I'm also using a beta version of Xamarin.Forms.CarouselView.
 <img src="Screenshots/ios/ExpenseWalkThroughPageTimesheetSlide.png" width="200">
 
 #Screenshots Android
-<img src="Screenshots/ios/ExpenseWalkThroughPageTimesheetSlide.png" width="200">
+<img src="https://github.com/leroygumede/WelcomeCarousel/blob/master/screenshots/1_android.png" width="200">ExpenseWalkThroughPageTimesheetSlide.png
